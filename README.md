@@ -1,16 +1,65 @@
-# React + Vite
+# NeuroNest AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NeuroNest AI is an AI-powered personalized learning platform designed for students to improve productivity, learning, and exam preparation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- AI Doubt Solver
+- Quiz Generator
+- Smart Flashcards
+- Notes Summarizer
+- AI Smart Timetable Generator
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Gemini API
 
-## Expanding the ESLint configuration
+## Key Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Premium modern UI/UX
+- AI-powered educational assistance
+- Personalized study timetable generation
+- Interactive AI chat interface
+- Responsive and elegant design
+
+## Future Improvements
+
+- Voice AI assistant
+- PDF upload support
+- Student progress tracking
+- AI learning analytics
+
+## Setup Instructions
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Bhumikapatil17/NeuroNest-AI.git
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Add Gemini API Key
+
+Create a `.env` file and add:
+
+```env
+VITE_GEMINI_API_KEY=your_api_key
+```
+
+### 4. Run Project
+
+```bash
+npm run dev
+```
+
+## Author
+
+Bhumika Patil
